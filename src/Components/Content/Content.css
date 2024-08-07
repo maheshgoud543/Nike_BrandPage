@@ -1,0 +1,108 @@
+.content-container {
+    margin-left: 2rem;
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem; /* Adjusted to a more reasonable gap */
+}
+
+.content-container-active {
+    background-color: black;
+}
+
+.content-container-inactive {
+    background-color: white;
+}
+
+h1 {
+    font-size: 3rem;
+
+}
+
+h5 {
+    font-size: 1rem;
+}
+
+.image-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px; /* Adjust as needed */
+    height: 400px; /* Adjust as needed */
+}
+
+li {
+    list-style: none;
+}
+
+.current-image {
+    border-radius: 0.5rem;
+    box-shadow: 0px 0px 2px 2px;
+    width: 100%;
+    height: 100%;
+}
+
+.arrow {
+    position: absolute;
+    width: 2rem;
+    height: 2rem;
+    color: white;
+    filter: drop-shadow(0px 0px 5px #555);
+    cursor: pointer;
+}
+
+.arrow-left {
+    left: 1rem;
+}
+
+.arrow-right {
+    right: 1rem;
+}
+
+.circle-indicators {
+    display: flex;
+    position: absolute;
+    bottom: 1rem;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.current-indicator {
+    background-color: #ea0808;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    margin: 0 0.2rem;
+    cursor: pointer;
+}
+
+.inactive-indicator {
+    background-color: gray;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    margin: 0 0.2rem;
+    cursor: pointer;
+}
+
+.hide-current-image {
+    display: none;
+}
+.Logos{
+    cursor: pointer;
+    display: flex;
+    gap: 1.5rem;
+}
+.shopnow-button{
+    background-color: #ea0808;
+    padding: 1rem;
+    color: white;
+    border-radius: 1rem;
+    border: none;
+    cursor: pointer;
+}
